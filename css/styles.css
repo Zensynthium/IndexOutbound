@@ -1,0 +1,76 @@
+* {
+  transition: all 0.5s;
+}
+
+body {
+  padding: 20px;
+  /* background-color: #dbdbdb; */
+}  
+
+label {
+  display: block;
+}
+
+.post-container, .reply-container {
+  border: 1px solid;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 5px;
+}
+
+.post-container {
+  min-height: 200px;
+}
+
+.post-image {
+  height: 250px;
+}
+
+.reply-container {
+  width: 60%;
+}
+
+#create-post, .create {
+  width: 80%;
+}
+
+#create-button {
+  display: block;
+}
+
+#create-post {
+  display: none;
+}
+
+.link-button {
+  text-decoration: none;
+  height: 20px;
+}
+
+.post-icon, .modify-icon, .link-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.modify-icon, .link-icon {
+  position: relative;
+  bottom: 4px;
+}
+
+.modify-button {
+  height: 20px;
+}
+
+.icon-container {
+  height: 20px;
+}
+
+.icon-button {
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.reply-box {
+  height: 200px;
+}
